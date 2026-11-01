@@ -5,16 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="A peaceful Bible quotes page with meaningful highlights and encouraging scripture at the top."
+      content="Rijo’s digital time capsule: a heartfelt collection of gratitude, faith, memories, apologies, and love."
     />
-    <title>Bible Highlights</title>
+    <title>Rijo ♫ — A Digital Time Capsule</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css" />\n
+    <style>
+      .hero-signature { margin: .25rem 0 1.25rem; letter-spacing: .12em; opacity: .8; }
+      .disclaimer-card {
+        max-width: 760px; margin: 1.5rem auto 2.5rem; padding: clamp(1.25rem, 4vw, 2.25rem);
+        border: 1px solid rgba(180, 155, 115, .35); border-radius: 1.25rem;
+        background: rgba(255,255,255,.055); text-align: center; line-height: 1.8;
+        backdrop-filter: blur(8px);
+      }
+      .disclaimer-card h2 { margin: .55rem 0 1rem; font-size: clamp(1.45rem, 4vw, 2.2rem); }
+      .disclaimer-card p { margin: .65rem 0; }
+      .disclaimer-intro { font-weight: 600; }
+      .disclaimer-closing { margin-top: 1.25rem !important; }
+      .footer-with-love { letter-spacing: .12em; }
+      .footer-with-love strong { display: block; font-size: 1.5rem; letter-spacing: normal; margin-top: .35rem; }
+      .footer-note { max-width: 620px; margin: .75rem auto; opacity: .8; }
+    </style>
   </head>
   <body>
     <div class="page-glow" aria-hidden="true"></div>
@@ -27,36 +43,35 @@
     <main>
       <section class="hero" id="top">
         <div class="container hero-inner">
-          <p class="eyebrow" data-i18n="timeCapsule">Bible highlights</p>
+          <p class="eyebrow" data-i18n="timeCapsule">A digital time capsule</p>
+          <p class="hero-signature">Rijo ♫</p>
+
+          <div class="disclaimer-card reveal">
+            <p class="disclaimer-intro">😂 Before you misunderstand this...</p>
+            <h2>THIS IS NOT MY LAST LETTER. LOL. ❤️</h2>
+            <p>I'm not saying goodbye to life, and this isn't a farewell letter. 😂</p>
+            <p>It's just a little collection of thoughts, emotions, memories, gratitude, and apologies that I've wanted to express for a long time.</p>
+            <p>Life is unpredictable, and I don't know where tomorrow will take me. So, why wait for a special day to appreciate the people who have been part of my journey?</p>
+            <p>If you're reading this, don't worry. I'm still here, and my journey continues.</p>
+            <p class="disclaimer-closing"><strong>This isn't goodbye. It's simply a thank-you. ☾</strong></p>
+          </div>
+
           <h1 class="typewriter" id="typewriterText" data-text="The Lord is my strength and my song."></h1>
           <p class="hero-subtitle" data-i18n="subtitle">A gentle reminder that faith, hope, and grace still lead the way.</p>
+
+          <div class="thankful-verses reveal" aria-label="Bible verses about being thankful">
+            <h3>Bible verses about being thankful (KJV)</h3>
+            <ol>
+              <li><strong>Philippians 1:3</strong> – <span>"I thank my God upon every remembrance of you."</span></li>
+              <li><strong>1 Thessalonians 5:18</strong> – <span>"In every thing give thanks: for this is the will of God in Christ Jesus concerning you."</span></li>
+              <li><strong>Psalm 107:1</strong> – <span>"O give thanks unto the LORD, for he is good: for his mercy endureth for ever."</span></li>
+              <li><strong>Colossians 3:15</strong> – <span>"And be ye thankful."</span></li>
+            </ol>
+          </div>
 
           <div class="note-card" aria-label="Bible quote">
             “Trust in the Lord with all your heart and lean not on your own understanding.”
             <span>— Proverbs 3:5</span>
-          </div>
-
-          <div class="highlights-row reveal" aria-label="Bible highlights">
-            <article class="highlight-card">
-              <span class="highlight-tag">Hope</span>
-              <p>“For I know the plans I have for you, declares the Lord...”</p>
-              <small>Jeremiah 29:11</small>
-            </article>
-            <article class="highlight-card">
-              <span class="highlight-tag">Peace</span>
-              <p>“Be still, and know that I am God.”</p>
-              <small>Psalm 46:10</small>
-            </article>
-            <article class="highlight-card">
-              <span class="highlight-tag">Love</span>
-              <p>“Love is patient, love is kind...”</p>
-              <small>1 Corinthians 13:4</small>
-            </article>
-            <article class="highlight-card">
-              <span class="highlight-tag">Grace</span>
-              <p>“My grace is sufficient for you, for my power is made perfect in weakness.”</p>
-              <small>2 Corinthians 12:9</small>
-            </article>
           </div>
         </div>
       </section>
@@ -181,6 +196,7 @@
             <p><strong>Ephesians 4:32</strong> — “Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.”</p>
             <p><strong>1 Thessalonians 5:18</strong> — “Give thanks in all circumstances.”</p>
             <p><strong>Psalm 90:12</strong> — “Teach us to number our days, that we may gain a heart of wisdom.”</p>
+            <p><strong>Philippians 1:3</strong> — “I thank my God upon every remembrance of you.”</p>
           </div>
         </div>
       </section>
@@ -233,7 +249,9 @@
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>With love, <strong>Rijo ❤️</strong></p>
+        <p class="footer-with-love">WITH LOVE, <strong>Rijo ❤️</strong></p>
+        <p class="footer-note">This isn't the end of my story. It's just a little reminder of the people, moments, and lessons that made it meaningful.</p>
+        <p>My journey continues... ☾</p>
       </div>
     </footer>
 
